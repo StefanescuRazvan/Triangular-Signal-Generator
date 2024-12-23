@@ -1,0 +1,208 @@
+(ExpressProject "OST_TSt_25"
+  (ProjectVersion "19981106")
+  (SoftwareVersion "24.1 P001 (4234998)  [9/4/2024]-[12/10/24]")
+  (ProjectType "Analog or A/D Mixed Mode")
+  (Folder "Design Resources"
+    (Folder "Library"
+      (File
+         "c:\users\razva\downloads\modele_a1_lib\modele_a1_lib\smls14bet.lib"
+        (Type "EDIF Netlist"))
+      (File "c:\users\razva\downloads\modele_a1_lib\modele_a1_lib\opto.lib"
+        (Type "EDIF Netlist"))
+      (File
+         "c:\users\razva\downloads\modele_a1_lib\modele_a1_lib\irfr120npbf.lib"
+        (Type "EDIF Netlist"))
+      (File "c:\users\razva\downloads\modele_a1_lib\modele_a1_lib\1n4148.lib"
+        (Type "EDIF Netlist"))
+      (File "c:\users\razva\downloads\modele_a1_lib\modele_a1_lib\bzx84c10.lib"
+        (Type "EDIF Netlist"))
+      (File
+         "c:\users\razva\downloads\modele_a1_lib\modele_a1_lib\bzx84c8v2.lib"
+        (Type "EDIF Netlist"))
+      (File
+         "c:\users\razva\downloads\modele_a1_lib\modele_a1_lib\bzx84c6v8.lib"
+        (Type "EDIF Netlist"))
+      (File
+         "c:\users\razva\downloads\modele_a1_lib\modele_a1_lib\bzx84c6v2.lib"
+        (Type "EDIF Netlist"))
+      (File
+         "c:\users\razva\downloads\modele_a1_lib\modele_a1_lib\bzx84c5v6.lib"
+        (Type "EDIF Netlist"))
+      (File
+         "c:\users\razva\downloads\modele_a1_lib\modele_a1_lib\bzx84c5v1.lib"
+        (Type "EDIF Netlist"))
+      (File
+         "c:\users\razva\downloads\modele_a1_lib\modele_a1_lib\bzx84c2v7.lib"
+        (Type "EDIF Netlist"))
+      (File "c:\users\razva\downloads\modele_a1_lib\modele_a1_lib\bc856b.lib"
+        (Type "EDIF Netlist"))
+      (File "c:\users\razva\downloads\modele_a1_lib\modele_a1_lib\bc846b.lib"
+        (Type "EDIF Netlist"))
+      (File
+         "c:\users\razva\downloads\modele_a1_lib\modele_a1_lib\mmbfj309lt1g.lib"
+        (Type "EDIF Netlist"))
+      (File
+         "c:\users\razva\downloads\modele_a1_lib\modele_a1_lib\mmbfj177lt1g.lib"
+        (Type "EDIF Netlist"))
+      (File "c:\users\razva\downloads\modele_a1_lib\modele_a1_lib\bc817-25.lib"
+        (Type "EDIF Netlist"))
+      (File "c:\users\razva\downloads\modele_a1_lib\modele_a1_lib\bc807-25.lib"
+        (Type "EDIF Netlist"))
+      (File "c:\users\razva\downloads\modele_a1_lib\modele_a1_lib\mjd32cg.lib"
+        (Type "EDIF Netlist"))
+      (File "c:\users\razva\downloads\modele_a1_lib\modele_a1_lib\mjd31cg.lib"
+        (Type "EDIF Netlist")))
+    (NoModify)
+    (File ".\ost_tst_25.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (PSPICE_Regenerate_Netlist_Flag "TRUE")
+    ("Allegro Netlist Directory" "allegro")
+    ("Allegro Netlist Output Board File" ".\allegro\ost_tst_25.brd")
+    (DOCKED "TRUE")
+    (DOCKING_POSITION "59420"))
+  (Folder "Layout"
+    (File ".\allegro\ost_tst_25.brd"
+      (Type "Board File")
+      (OutputBoard ".\allegro\ost_tst_25.brd")
+      (NetListPath ".\allegro")
+      (ActiveBoard "1")))
+  (Folder "Outputs"
+    (File ".\ost_tst_25-pspicefiles\schematic1\schematic1.net"
+      (Type "Report"))
+    (File ".\allegro\pstxnet.dat"
+      (Type "Report")
+      (DisplayName "pstxnet.dat"))
+    (File ".\allegro\pstxprt.dat"
+      (Type "Report")
+      (DisplayName "pstxprt.dat"))
+    (File ".\allegro\pstchip.dat"
+      (Type "Report")
+      (DisplayName "pstchip.dat")))
+  (Folder "PSpice Resources"
+    (Folder "Simulation Profiles"
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\ost_tst_25-pspicefiles\schematic1\tran.sim"
+        (DisplayName "SCHEMATIC1-tran")
+        (Type "PSpice Profile"))
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\ost_tst_25-pspicefiles\schematic1\temp.sim"
+        (DisplayName "SCHEMATIC1-temp")
+        (Type "PSpice Profile"))
+      (ActiveProfile ".\ost_tst_25-pspicefiles\schematic1\temp.sim"))
+    (Folder "Model Libraries"
+      (Sort User)
+      (File
+         "c:\users\razva\downloads\modele_a1_lib\modele_a1_lib\smls14bet.lib"
+        (Type "EDIF Netlist"))
+      (File "c:\users\razva\downloads\modele_a1_lib\modele_a1_lib\opto.lib"
+        (Type "EDIF Netlist"))
+      (File
+         "c:\users\razva\downloads\modele_a1_lib\modele_a1_lib\irfr120npbf.lib"
+        (Type "EDIF Netlist"))
+      (File "c:\users\razva\downloads\modele_a1_lib\modele_a1_lib\1n4148.lib"
+        (Type "EDIF Netlist"))
+      (File "c:\users\razva\downloads\modele_a1_lib\modele_a1_lib\bzx84c10.lib"
+        (Type "EDIF Netlist"))
+      (File
+         "c:\users\razva\downloads\modele_a1_lib\modele_a1_lib\bzx84c8v2.lib"
+        (Type "EDIF Netlist"))
+      (File
+         "c:\users\razva\downloads\modele_a1_lib\modele_a1_lib\bzx84c6v8.lib"
+        (Type "EDIF Netlist"))
+      (File
+         "c:\users\razva\downloads\modele_a1_lib\modele_a1_lib\bzx84c6v2.lib"
+        (Type "EDIF Netlist"))
+      (File
+         "c:\users\razva\downloads\modele_a1_lib\modele_a1_lib\bzx84c5v6.lib"
+        (Type "EDIF Netlist"))
+      (File
+         "c:\users\razva\downloads\modele_a1_lib\modele_a1_lib\bzx84c5v1.lib"
+        (Type "EDIF Netlist"))
+      (File
+         "c:\users\razva\downloads\modele_a1_lib\modele_a1_lib\bzx84c2v7.lib"
+        (Type "EDIF Netlist"))
+      (File "c:\users\razva\downloads\modele_a1_lib\modele_a1_lib\bc856b.lib"
+        (Type "EDIF Netlist"))
+      (File "c:\users\razva\downloads\modele_a1_lib\modele_a1_lib\bc846b.lib"
+        (Type "EDIF Netlist"))
+      (File
+         "c:\users\razva\downloads\modele_a1_lib\modele_a1_lib\mmbfj309lt1g.lib"
+        (Type "EDIF Netlist"))
+      (File
+         "c:\users\razva\downloads\modele_a1_lib\modele_a1_lib\mmbfj177lt1g.lib"
+        (Type "EDIF Netlist"))
+      (File "c:\users\razva\downloads\modele_a1_lib\modele_a1_lib\bc817-25.lib"
+        (Type "EDIF Netlist"))
+      (File "c:\users\razva\downloads\modele_a1_lib\modele_a1_lib\bc807-25.lib"
+        (Type "EDIF Netlist"))
+      (File "c:\users\razva\downloads\modele_a1_lib\modele_a1_lib\mjd32cg.lib"
+        (Type "EDIF Netlist"))
+      (File "c:\users\razva\downloads\modele_a1_lib\modele_a1_lib\mjd31cg.lib"
+        (Type "EDIF Netlist")))
+    (Folder "Stimulus Files"
+      (Sort User))
+    (Folder "Include Files"
+      (Sort User)))
+  (DefaultLibraryBrowseDirectory "library\PSpice")
+  (PartMRUSelector
+    (R
+      (FullPartName "R.Normal")
+      (LibraryName
+         "C:\ORCAD\ORCAD_16.6_LITE\TOOLS\CAPTURE\LIBRARY\PSPICE\ANALOG.OLB")
+      (DeviceIndex "0"))
+    (GND
+      (LibraryName "C:\CADENCE\ORCADX_24.1\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (CON2
+      (FullPartName "CON2.Normal")
+      (LibraryName "C:\CADENCE\ORCADX_24.1\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0")))
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources" "Library")
+      (Path "Layout")
+      (Path "Outputs")
+      (Path "PSpice Resources")
+      (Path "PSpice Resources" "Model Libraries")
+      (Path "PSpice Resources" "Simulation Profiles")
+      (Path "Logs")
+      (Select "PSpice Resources" "Simulation Profiles"
+         "c:\users\razva\downloads\ost_tst_25\ost_tst_25\ost_tst_25-pspicefiles\schematic1\temp.sim"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 0 200 0 531"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 5 24 5 1290 24 549")
+        (Scroll "1068 540")
+        (Zoom "96")
+        (Occurrence "/"))
+      (Path "C:\USERS\RAZVA\DOWNLOADS\OST_TST_25\OST_TST_25\OST_TST_25.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "PAGE1")))
+  (MPSSessionName "razva")
+  (LastUsedLibraryBrowseDirectory
+     "C:\Cadence\OrCADX_24.1\tools\capture\library")
+  (Folder "Logs"
+    (File ".\allegro\netlist.log"
+      (Type "Log File")
+      (LogFile
+         "C:\Users\razva\Downloads\OST_TST_25\OST_TST_25\allegro\netlist.log"))
+    (File ".\allegro\netrev.lst"
+      (Type "Log File")
+      (LogFile
+         "C:\Users\razva\Downloads\OST_TST_25\OST_TST_25\allegro\netrev.lst"))
+    (File ".\allegro\eco.txt"
+      (Type "Log File")
+      (LogFile "C:\Users\razva\Downloads\OST_TST_25\OST_TST_25\allegro\eco.txt"))
+    (File ".\allegro\genfeed.log"
+      (Type "Log File")
+      (LogFile
+         "C:\Users\razva\Downloads\OST_TST_25\OST_TST_25\allegro\genfeed.log"))))
