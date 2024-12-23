@@ -1,7 +1,7 @@
 # Oscillator and Amplifier Circuit
 
 ## Overview
-This project implements an oscillator and amplifier circuit composed of multiple transistor stages, powered by a 40 V supply. The design utilizes both NPN and PNP transistors to achieve signal generation, amplification, and load adaptation. The documentation details the circuit components, their roles, and the step-by-step operation of the system.
+This project implements an oscillator and amplifier circuit composed of multiple transistor stages, powered by a 40 V supply. The design utilizes both NPN and PNP transistors to achieve signal generation, amplification, and load adaptation.
 
 ## Features
 1. **Signal Generation**: A Wien oscillator generates rectangular oscillations, which are converted into a triangular signal through capacitors.  
